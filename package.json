@@ -1,0 +1,38 @@
+{
+  "name": "error_reproducer_renovate_silent_update_fail_missing_tag.github.io",
+  "version": "1.0.0",
+  "description": "Bli",
+  "productName": "Blu",
+  "author": "Bla",
+  "type": "module",
+  "packageManager": "pnpm@9.1.2",
+  "private": true,
+  "scripts": {
+    "build": "quasar build",
+    "predev": "corepack use pnpm@* && pnpm lint",
+    "dev": "quasar dev",
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.11",
+    "pinia": "^2.1.7",
+    "quasar": "^2.16.1",
+    "vue": "^3.4.23",
+    "vue-router": "^4.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.3.0",
+    "@quasar/app-vite": "2.0.0-beta.14",
+    "@types/node": "20.12.12",
+    "autoprefixer": "10.4.19",
+    "eslint": "9.3.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-prettier": "5.1.3",
+    "eslint-plugin-vue": "9.26.0",
+    "globals": "15.3.0",
+    "prettier": "3.2.5",
+    "ts-node": "10.9.2",
+    "typescript": "5.4.5",
+    "typescript-eslint": "7.10.0",
+    "vue-tsc": "1.8.27"
+  },
+}
